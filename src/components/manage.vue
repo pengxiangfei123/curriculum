@@ -49,17 +49,17 @@
           >
             <el-menu-item
               index="1"
-              @click="routeLike('/home')"
+              @click="routeLike('/price')"
             >
               <i class="el-icon-menu"></i>
               <span slot="title">首页</span>
             </el-menu-item>
             <el-menu-item
               index="2"
-              @click="routeLike('/setting')"
+              @click="routeLike('/list')"
             >
               <i class="el-icon-s-shop"></i>
-              <span slot="title">导航二</span>
+              <span slot="title">列表</span>
             </el-menu-item>
             <el-menu-item index="3">
               <i class="el-icon-document"></i>
@@ -139,7 +139,7 @@ export default {
   background-color: rgb(84, 92, 100);
 }
 .main-wrapper {
-  padding: 0;
+  padding: 20px;
   background: #ffffff;
   margin: 10px;
   box-shadow: 1px 2px 6px #b1b1b1;

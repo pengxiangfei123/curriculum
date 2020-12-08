@@ -8,6 +8,7 @@ import ElementUI from 'element-ui';
 import store from './store'
 import 'element-ui/lib/theme-chalk/index.css';
 import { get, post, postJson } from '@/assets/js/server.js'
+import './assets/js/drag.js'
 import { cookie } from '@/assets/js/common.js'
 import qs from 'qs';
 Vue.prototype.$axios = Axios

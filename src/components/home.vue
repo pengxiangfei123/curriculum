@@ -31,10 +31,10 @@
     </div>
     <div class="specialtyDiv">
       <div class="specialtyDiv_left">
-        <img
+        <!-- <img
           width="0"
           style="vertical-align:middle;height:100%"
-        >
+        > -->
         专业
       </div>
       <div class="specialtyDiv_right">
@@ -239,7 +239,7 @@ export default {
           isActive: false
         }
       ],
-      erji: [{"permission":null,"areaName":"洪都拉斯","specialtyName":"铁路工程","userName":"马超","orgName":"中土埃塞俄比亚工程有限公司","consultingCompanyNationName":null,"applying":null,"consultingNation":null,"nationInfo":null,"bqBill":null,"defaultAttribute":false,"contractBook":null,"contractEndWorkDate":null,"contractMoneyLoc":null,"moneyName":null,"contractMoneyUsd":null,"contractStartWorkDate":null,"contractType":null,"contractDate":null,"endWorkCertificate":null,"performanceTestify":null,"projectContent":null,"projectIntroReport":null,"projectStaff":null,"realityStartWorkDate":null,"realityEndWorkDate":null,"settleAccountsMoneyLoc":null,"settleAccountsMoneyUsd":null,"signAContract":null,"soilStone":null,"updateDate":null,"usdExchangeRate":null,"ownerAddress":null,"ownerEmail":null,"ownerFax":null,"ownerPhone":null,"briefIntroduction":null,"mainJob":null,"constructionConditions":null,"designTask":null,"contractDuration":null,"warrantyPeriod":null,"qualificationPurchaseDate":null,"tenderPurchaseDate":null,"qualificationRequirements":null,"assessedDate":null,"bidDeadlineDate":null,"specialRequirement":null,"tenderMethod":null,"projectScale":null,"paymentCurrencyType":null,"usdPercentage":null,"prepayments":null,"retentionMoney":null,"loan":null,"loanCondition":null,"bidBond":null,"performanceBond":null,"downPaymentDeposit":null,"penaltyForBreachOfContract":null,"taxRegulations":null,"insuranceClaim":null,"entryRestrictions":null,"otherThingsToExplain":null,"competitor":null,"riskDetails":null,"tenderComplianceRiskLevel":null,"businessUnit":null,"ownerUnit":null,"designUnit":null,"supervisionUnit":null,"plannedStartDate":null,"plannedCompletionDate":null,"projectManagerMode":null,"mainEngineeringQuantity":null,"mainProgress":null,"outputValuePlan":null,"outputValueComplete":null,"planningOutline":null,"implementationPlanning":null,"implementationDesign":null,"keyControlEngineering":null,"contactDetails":null,"principal":null,"mainCooperationUnit":null,"remark":null,"projectGuid":"6ae3f7ec-4b73-447a-b7ac-abab1114dcf1","projectName":"测试","englishName":"text","countryId":"02cf02d6-1dc5-4aa5-a3db-62afe75c08bd","address":"洪都","jobMode":"2","sourcesOfFunds":null,"sourcesOfFundsDetail":null,"sourcesOfFundsStr":null,"sourcesOfFundsParent":null,"sourcesOfFundsOther":null,"specialtyGuid":"f30b9e7a-0289-4b99-b08c-82599074eabf","createTime":1603505635000,"updateTime":1603505635000,"status":"4","projectStage":"0","projectStatus":null,"qualificationType":"2","orgId":"163ae1ef-889f-485d-adab-f9151cf4d571","userId":"30ff2120-c7f1-41bc-a5ca-e9aa506b4038","contractNumber":"","consultingCompany":"","consultingCompanyNation":"","contractorName":"","pictureId":"","projectType":null,"projectArchiveStatus":"0","bEton":null}],
+      erji: [{ "permission": null, "areaName": "洪都拉斯", "specialtyName": "铁路工程", "userName": "马超", "orgName": "中土埃塞俄比亚工程有限公司", "consultingCompanyNationName": null, "applying": null, "consultingNation": null, "nationInfo": null, "bqBill": null, "defaultAttribute": false, "contractBook": null, "contractEndWorkDate": null, "contractMoneyLoc": null, "moneyName": null, "contractMoneyUsd": null, "contractStartWorkDate": null, "contractType": null, "contractDate": null, "endWorkCertificate": null, "performanceTestify": null, "projectContent": null, "projectIntroReport": null, "projectStaff": null, "realityStartWorkDate": null, "realityEndWorkDate": null, "settleAccountsMoneyLoc": null, "settleAccountsMoneyUsd": null, "signAContract": null, "soilStone": null, "updateDate": null, "usdExchangeRate": null, "ownerAddress": null, "ownerEmail": null, "ownerFax": null, "ownerPhone": null, "briefIntroduction": null, "mainJob": null, "constructionConditions": null, "designTask": null, "contractDuration": null, "warrantyPeriod": null, "qualificationPurchaseDate": null, "tenderPurchaseDate": null, "qualificationRequirements": null, "assessedDate": null, "bidDeadlineDate": null, "specialRequirement": null, "tenderMethod": null, "projectScale": null, "paymentCurrencyType": null, "usdPercentage": null, "prepayments": null, "retentionMoney": null, "loan": null, "loanCondition": null, "bidBond": null, "performanceBond": null, "downPaymentDeposit": null, "penaltyForBreachOfContract": null, "taxRegulations": null, "insuranceClaim": null, "entryRestrictions": null, "otherThingsToExplain": null, "competitor": null, "riskDetails": null, "tenderComplianceRiskLevel": null, "businessUnit": null, "ownerUnit": null, "designUnit": null, "supervisionUnit": null, "plannedStartDate": null, "plannedCompletionDate": null, "projectManagerMode": null, "mainEngineeringQuantity": null, "mainProgress": null, "outputValuePlan": null, "outputValueComplete": null, "planningOutline": null, "implementationPlanning": null, "implementationDesign": null, "keyControlEngineering": null, "contactDetails": null, "principal": null, "mainCooperationUnit": null, "remark": null, "projectGuid": "6ae3f7ec-4b73-447a-b7ac-abab1114dcf1", "projectName": "测试", "englishName": "text", "countryId": "02cf02d6-1dc5-4aa5-a3db-62afe75c08bd", "address": "洪都", "jobMode": "2", "sourcesOfFunds": null, "sourcesOfFundsDetail": null, "sourcesOfFundsStr": null, "sourcesOfFundsParent": null, "sourcesOfFundsOther": null, "specialtyGuid": "f30b9e7a-0289-4b99-b08c-82599074eabf", "createTime": 1603505635000, "updateTime": 1603505635000, "status": "4", "projectStage": "0", "projectStatus": null, "qualificationType": "2", "orgId": "163ae1ef-889f-485d-adab-f9151cf4d571", "userId": "30ff2120-c7f1-41bc-a5ca-e9aa506b4038", "contractNumber": "", "consultingCompany": "", "consultingCompanyNation": "", "contractorName": "", "pictureId": "", "projectType": null, "projectArchiveStatus": "0", "bEton": null }],
       department: [],
       loading: false
     }
@@ -466,7 +466,6 @@ ul {
   text-indent: 14px;
 }
 .liarr-xiangmu {
-  /* width: 100px; */
   font-size: 14px;
   float: left;
   line-height: 40px;
@@ -605,8 +604,6 @@ ul {
 .specialtyDiv_left {
   float: left;
   font-size: 14px;
-}
-.specialtyDiv_left {
   background-color: #eafcff;
   width: 120px;
   text-indent: 14px;

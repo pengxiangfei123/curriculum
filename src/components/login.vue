@@ -130,7 +130,7 @@ export default {
             if (res.status === 0) {
               this.$cookie.set('token', res.data.token)
               this.setUserInfo(res.data.token)
-              this.$router.push('/home')
+              this.$router.push('/price')
             } else {
               this.$message.error(res.error.message)
             }

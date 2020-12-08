@@ -27,6 +27,7 @@ html,
 ul,
 ol,
 p {
+  list-style: none;
   padding: 0;
   margin: 0;
 }

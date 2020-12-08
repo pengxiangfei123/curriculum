@@ -18,10 +18,16 @@ export default new Router({
       redirect: '/login',
       children: [
         {
-          path: '/home',
-          name: 'Hame',
+          path: '/price',
+          name: 'Price',
           component: () =>
-            import('@/components/home')
+            import('@/components/price')
+        },
+        {
+          path: '/list',
+          name: 'List',
+          component: () =>
+            import('@/components/list')
         },
         {
           path: '/setting',
